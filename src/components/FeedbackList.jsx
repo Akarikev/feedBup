@@ -21,7 +21,7 @@ FeedbackList.propTypes = {
   feedback: propTypes.arrayOf(
     propTypes.shape({
       id: propTypes.number.isRequired,
-      text: propTypes.string.isRequired,
+      text: propTypes.string,
       rating: propTypes.number.isRequired,
     })
   ),
